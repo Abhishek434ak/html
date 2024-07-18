@@ -71,7 +71,7 @@
         <input type="int"><br><br>
         <label for="number">address</address>:</label>
         <input type="int"><br><br>
-        <input class="button" type="submit" value="Submit">
+        <center><input class="button" type="submit" value="Submit"></center>
       </fieldset>
     </form>
 
