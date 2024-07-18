@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<head>
+
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .boder {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(pexels-pixabay-531880.jpg);
+      height: 1000PX;
+      width: 100%;
+      font-family: monospace;
+      font-size: large;
+      font-weight: bold;
+
+
+
+    }
+
+    fieldset {
+      color: rgb(17, 17, 17);
+      backdrop-filter: blur(50px);
+ height: 300px;
+ width: 300px;
+    }
+
+    legend {
+      background-color: rgba(255, 239, 239, 0.274);
+      color: rgb(0, 0, 0);
+      padding: 5px 10px;
+      border-radius: 40px;
+
+    }
+    .button{
+      color: rgb(17, 17, 17);
+      margin-bottom: 20px;
+      width: 60px;
+      border-radius: 50px;
+    }
+  .button :hover{
+    background-color: rgb(255, 19, 38);
+  }
+  </style>
+</head>
+
+
+<body>
+
+
+  <div class="boder">
+
+
+    <form>
+      <fieldset>
+        <legend>login</legend>
+        <label for="name">username:</label>
+        <input type="text"><br><br>
+        <label for="password">password:</label>
+        <input type="password"><br><br>
+        <label for="number">number:</label>
+        <input type="int"><br><br>
+        <label for="number">email-id:</label>
+        <input type="int"><br><br>
+        <label for="number">address</address>:</label>
+        <input type="int"><br><br>
+        <input class="button" type="submit" value="Submit">
+      </fieldset>
+    </form>
+
+  </div>
+</body>
+
+</html>
